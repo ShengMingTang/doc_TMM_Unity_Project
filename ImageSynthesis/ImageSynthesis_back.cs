@@ -17,7 +17,9 @@ using System.IO;
 
 [RequireComponent (typeof(Camera))]
 public class ImageSynthesis : MonoBehaviour {
-
+	public int width = 1980;
+	public int height = 720;
+	
 	// pass configuration
 	private CapturePass[] capturePasses = new CapturePass[] {
 		new CapturePass() { name = "_img" },
